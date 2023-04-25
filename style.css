@@ -30,7 +30,7 @@ justify-content: center;
 
 @media (min-width: 375px) {
 
-    .container {
+    .main {
         display: grid;
         height: max-content;
         width: 345px;                
@@ -71,7 +71,7 @@ justify-content: center;
         border-radius: 12px 12px 0 0;
     }
     
-    .contenido :nth-child(1) {
+    .main :nth-child(1) {
         
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -79,31 +79,31 @@ justify-content: center;
         
     }
 
-    .contenido :nth-child(2) {
+    .main :nth-child(2) {
         
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         text-align: center;
     }
     
-    .contenido :nth-child(3) {
+    .main :nth-child(3) {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         text-align: center;
     }
 
-    .contenido :nth-child(4) {
+    .main :nth-child(4) {
         grid-column: 1 / 2;
         grid-row: 4 / 5;
         text-align: center;
     }
 
-    .contenido :nth-child(5) {
+    .main :nth-child(5) {
         grid-column: 1 / 2;
         grid-row: 5 / 6;
     }
 
-    .contenido :nth-child(6) {
+    .main :nth-child(6) {
         grid-column: 1 / 2;
         grid-row: 6 / 7;
     }
@@ -147,7 +147,7 @@ justify-content: center;
 
 @media (min-width: 1440px) {
 
-    .container {
+    .main {
         display: grid;
         height: 400px;        
         width: 1000px;
@@ -160,7 +160,7 @@ justify-content: center;
         
     }
 
-    .container :nth-child(1){
+    .main :nth-child(1){
         grid-column: 4 / 5;
         grid-row: 1/5;
         text-align: inherit;
@@ -168,24 +168,30 @@ justify-content: center;
         
     }
 
-    .container :nth-child(2) {
+    .main :nth-child(2) {
         grid-column: 1 / 4;
         grid-row: 1 / 2;        
         
     }
 
-    .container :nth-child(3) {
+    .main :nth-child(3) {
         grid-column: 1 / 4;
         grid-row: 2 / 3;        
     }
 
-    .container :nth-child(4) {
+    .main :nth-child(4) {
         grid-column: 1 / 2;
         grid-row: 3 / 4;        
     }
 
-    .container :nth-child(5) {
+    .main :nth-child(5) {
         grid-column: 2 / 3;
+        grid-row: 3 / 4;        
+    }
+
+    
+    .main :nth-child(6) {
+        grid-column: 3 / 4;
         grid-row: 3 / 4;        
     }
 
@@ -227,6 +233,7 @@ justify-content: center;
         margin: 0;
         padding: 0;            
         font-size: 1.8em;
+        display: flex;
     }
 
     .history_2 {                
@@ -234,6 +241,7 @@ justify-content: center;
         margin: 0;
         line-height: 1.9;
         font-size: 0.8em;
+        display: flex;
         
     }
 
